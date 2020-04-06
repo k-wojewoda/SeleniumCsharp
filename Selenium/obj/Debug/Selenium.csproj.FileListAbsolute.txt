@@ -1,0 +1,9 @@
+c:\users\kasia\documents\visual studio 2015\Projects\TestAssignment\Selenium\bin\Debug\Selenium.dll
+c:\users\kasia\documents\visual studio 2015\Projects\TestAssignment\Selenium\bin\Debug\Selenium.pdb
+c:\users\kasia\documents\visual studio 2015\Projects\TestAssignment\Selenium\bin\Debug\WebDriver.dll
+c:\users\kasia\documents\visual studio 2015\Projects\TestAssignment\Selenium\bin\Debug\WebDriver.Support.dll
+c:\users\kasia\documents\visual studio 2015\Projects\TestAssignment\Selenium\bin\Debug\WebDriver.xml
+c:\users\kasia\documents\visual studio 2015\Projects\TestAssignment\Selenium\bin\Debug\WebDriver.Support.xml
+c:\users\kasia\documents\visual studio 2015\Projects\TestAssignment\Selenium\obj\Debug\Selenium.dll
+c:\users\kasia\documents\visual studio 2015\Projects\TestAssignment\Selenium\obj\Debug\Selenium.pdb
+c:\users\kasia\documents\visual studio 2015\Projects\TestAssignment\Selenium\obj\Debug\Selenium.csprojResolveAssemblyReference.cache

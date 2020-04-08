@@ -1,11 +1,9 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.PageObjects;
+using Selenium.Support;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support.PageObjects;
-using OpenQA.Selenium.Interactions;
 
 namespace Selenium.Pages
 {
@@ -27,7 +25,7 @@ namespace Selenium.Pages
         [FindsBy(How = How.XPath, Using = "//div[text()='New York']")]
         public IList<IWebElement> StartingPoints { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "//div[text()='Miami']")]
+        [FindsBy(How = How.XPath, Using = "//div[text()='Munich']")]
         public IList<IWebElement> DestPoints { get; set; }
 
         //first on page departure time
@@ -52,6 +50,12 @@ namespace Selenium.Pages
 
         [FindsBy(How = How.XPath, Using = "//div[@class='theme-search-results-item-flight-section-path-fly-time']//p[contains(.,'Trip Duration')]")]
         public IList<IWebElement> TripDurations { get; set; }
+        
+        [FindsBy(How = How.XPath, Using = "//button[@aria-label='Hide greeting']")]
+        public IWebElement HideGreeting { get; set; }
+        
+        [FindsBy(How = How.XPath, Using = "//span[@class='Linkify']")]
+        public IWebElement Greeting { get; set; }
 
         #endregion
 
@@ -80,12 +84,10 @@ namespace Selenium.Pages
             return (Prices.Count() == DestPoints.Count());
         }
 
-        public void ClickBookNow(int index)
-        {
-             //SCROLL TO ELEMENT
-             var element = driver.FindElement(By.XPath("(//button[text()='Book Now'])[" + index + "]"));
-             Actions actions = new Actions(driver);  
-             actions.MoveToElement(element).Click().Build().Perform();
+        public void ClickBookNow(IWebDriver driver, int index)
+        {                         
+            var element = driver.FindElement(By.XPath("(//button[text()='Book Now'])[" + index + "]"));
+            Utils.ScrollToElementAndClick(driver, element);
          }
         #endregion
     }

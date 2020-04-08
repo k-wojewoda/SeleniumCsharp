@@ -1,10 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Selenium.Support;
 
 namespace Selenium.Pages
 {
@@ -32,12 +28,39 @@ namespace Selenium.Pages
 
         [FindsBy(How = How.XPath, Using = "//form[@name='flightmanualSearch']//button[@type='submit']")]
         public IWebElement Search { get; set; }
+        
+        [FindsBy(How = How.XPath, Using = "(//div[contains(@id,'s2id')])[2]")]
+        public IWebElement FlightsFrom { get; set; }       
+        
+        [FindsBy(How = How.XPath, Using = "(//div[contains(@id,'s2id')])[3]")]
+        public IWebElement FlightsTo { get; set; }
+        
+        [FindsBy(How = How.XPath, Using = "//div[@id='select2-drop']/div/input")]
+        public IWebElement FloatingTextBox { get; set; }
+        
+        [FindsBy(How = How.XPath, Using = "(//div[@class='form-icon-left']/div/span/button[contains(@class,'up')])[3]")]
+        public IWebElement AdultsAdd { get; set; }
+
+        [FindsBy(How = How.XPath, Using = "(//div[@class='form-icon-left']/div/span/button[contains(@class,'up')])[4]")]
+        public IWebElement ChildrenAdd { get; set; }        
+
+        [FindsBy(How = How.XPath, Using = "//div[contains(@class,'login')]/a[@id='dropdownCurrency']")]
+        public IWebElement MyAccount { get; set; }
+        
+        [FindsBy(How = How.XPath, Using = "//a[.='Login']")]
+        public IWebElement Login { get; set; }
+          
+        [FindsBy(How = How.XPath, Using = "(//label[.='Destination'])[1]")]
+        public IWebElement Destination { get; set; }
+        public By LoginXpath => By.XPath("//a[.='Login']");
+        public By FloatingTextBoxXpath => By.XPath("//div[@id='select2-drop']/div/input");
+        public By FlightsToListXpath => By.XPath("(//div[@class='select2-result-label'])[1]");
         #endregion
 
         #region Methods
-        public IWebElement selectCalendarDay(string day)
+        public void selectCalendarDay(IWebDriver driver, string day)
         {
-            return driver.FindElement(By.XPath("//*[@id='datepickers-container']/div[8]/div/div/div[2]/div[text()='" + day + "']"));
+            Utils.ScrollToElementAndClick(driver, driver.FindElement(By.XPath("//*[@id='datepickers-container']/div[8]/div/div/div[2]/div[text()='" + day + "']")));
         }
         #endregion
     }

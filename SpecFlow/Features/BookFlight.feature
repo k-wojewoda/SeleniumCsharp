@@ -5,16 +5,15 @@
 
 @Case1
 Scenario: Flight search
-	Given user is on the home page
+	Given logged user is on the home page
 	And user goes to Flights tab
 	And user enters flights booking data
 	When user presses Search
 	Then the search results are sorted by price ascending, departures and arrivals cities are correct
-	# Miami default change to Munich !!!!!!!!!
 
 @Case2
 Scenario: Flight booking
-	Given user is on the home page
+	Given logged user is on the home page
 	And user goes to Flights tab
 	And user enters flights booking data
 	When user presses Search
@@ -24,8 +23,10 @@ Scenario: Flight booking
 
 @Case3
 Scenario: Fastest flight booking and payment
-	Given user is on the home page
+	Given logged user is on the home page
 	And user goes to Flights tab
 	And user enters flights booking data
 	When user presses Search
 	And user chooses fastest flight by pressing Book Now
+	Then user enters personal and payment data
+	And user can complete booking

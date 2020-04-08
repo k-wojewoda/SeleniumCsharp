@@ -1,0 +1,15 @@
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\SpecFlow.dll.config
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\SpecFlow.dll
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\SpecFlow.pdb
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\nunit.framework.dll
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\Selenium.dll
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\TechTalk.SpecFlow.dll
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\WebDriver.dll
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\WebDriver.Support.dll
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\Selenium.pdb
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\nunit.framework.xml
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\WebDriver.xml
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\WebDriver.Support.xml
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\obj\Release\SpecFlow.csprojResolveAssemblyReference.cache
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\obj\Release\SpecFlow.dll
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\obj\Release\SpecFlow.pdb

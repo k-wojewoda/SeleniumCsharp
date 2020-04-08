@@ -31,13 +31,16 @@ namespace SpecFlow
             foreach (var d in tripDurations)
             {
                 string temp = d.Text.Substring(14).Replace('h', ':');
-                //if there is no minutes => have to remove ':'
-                if (temp.IndexOf('m') == -1)
-                {
-                    temp = temp.Replace(':', ' ');
-                }
                 temp = temp.Replace('m', ' ');
                 temp = Regex.Replace(temp, @"\s+", "");
+
+                string hours = temp.Substring(0, temp.IndexOf(':'));
+                string min = temp.Substring(temp.IndexOf(':')+1);
+                int hoursInt = Int16.Parse(hours);
+                int days = hoursInt / 24;
+                int hourInt = hoursInt - (days * 24);
+                temp=days.ToString() +':'+ hoursInt.ToString() +':'+ min;
+
                 TripDurationsString.Add(temp);
             }
 

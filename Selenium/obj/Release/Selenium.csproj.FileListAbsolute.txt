@@ -4,5 +4,8 @@ C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\Selenium\bin
 C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\Selenium\bin\Release\WebDriver.Support.dll
 C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\Selenium\bin\Release\WebDriver.xml
 C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\Selenium\bin\Release\WebDriver.Support.xml
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\Selenium\obj\Release\Selenium.csprojAssemblyReference.cache
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\Selenium\obj\Release\Selenium.csproj.CoreCompileInputs.cache
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\Selenium\obj\Release\Selenium.csproj.CopyComplete
 C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\Selenium\obj\Release\Selenium.dll
 C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\Selenium\obj\Release\Selenium.pdb

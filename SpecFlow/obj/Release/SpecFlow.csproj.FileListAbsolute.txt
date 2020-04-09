@@ -10,6 +10,8 @@ C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin
 C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\nunit.framework.xml
 C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\WebDriver.xml
 C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\bin\Release\WebDriver.Support.xml
-C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\obj\Release\SpecFlow.csprojResolveAssemblyReference.cache
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\obj\Release\SpecFlow.csprojAssemblyReference.cache
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\obj\Release\SpecFlow.csproj.CoreCompileInputs.cache
+C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\obj\Release\SpecFlow.csproj.CopyComplete
 C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\obj\Release\SpecFlow.dll
 C:\Users\Kasia\Documents\Visual Studio 2015\Projects\TestAssignment\SpecFlow\obj\Release\SpecFlow.pdb

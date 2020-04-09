@@ -70,7 +70,7 @@ namespace SpecFlow.Steps
             {             
                 home.MonthNext.Click();
             }
-            home.selectCalendarDay(driver, date.Day.ToString());
+            home.SelectCalendarDay(driver, date.Day.ToString());
 
             home.AdultsAdd.Click();
             home.ChildrenAdd.Click();

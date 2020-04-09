@@ -58,7 +58,7 @@ namespace Selenium.Pages
         #endregion
 
         #region Methods
-        public void selectCalendarDay(IWebDriver driver, string day)
+        public void SelectCalendarDay(IWebDriver driver, string day)
         {
             Utils.ScrollToElementAndClick(driver, driver.FindElement(By.XPath("//*[@id='datepickers-container']/div[8]/div/div/div[2]/div[text()='" + day + "']")));
         }
